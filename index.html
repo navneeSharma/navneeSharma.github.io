@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navnee's Portfolio</title>
+
+  <!-- Google Font: National Park -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- ===== LANDING PAGE ===== -->
+  <main id="landing" class="landing">
+
+    <!-- ===== SITE NAV ===== -->
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="nav-logo">Navnee<span class="dot">.</span></div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active" aria-current="location">Home</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-icons">
+        <a class="icon-circle icon-github" href="https://github.com/navneeSharma" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12 .5C5.7.5.5 5.7.5 12c0 5 3.3 9.3 7.8 10.8.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.2 11.2 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5Z"/>
+          </svg>
+        </a>
+        <a class="icon-circle icon-linkedin" href="https://linkedin.com/in/navneesharma" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M20.4 20.4h-3.6v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.2V9h3.5v1.6h.1c.5-.9 1.7-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM7.1 20.4H3.5V9h3.6v11.4Z"/>
+          </svg>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero-split">
+      <div class="hero-text">
+        <p class="hero-greet">Hey, I&rsquo;m Navnee <span class="wave">&#128075;</span></p>
+        <h1 class="hero-heading">
+          <span class="accent-word">Junior AI</span> Engineer<br />
+          &amp; Data Scientist
+        </h1>
+        <p class="hero-desc">
+          Master’s graduate in Artificial Intelligence & Data Science with hands-on experience across machine learning, 
+          computer vision, data analytics, and automation. I enjoy the process of converting complex problems into
+           measurable solutions using messy data.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#contact" class="btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn-secondary">Browse Projects</a>
+        </div>
+
+        <div class="resume-wrap">
+          <a class="resume-btn" href="assets/resume.pdf" target="_blank" rel="noopener">
+            <span class="resume-text">Resume</span>
+            <span class="resume-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M7 3h7l4 4v14H7V3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M14 3v4h4" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <circle cx="11.5" cy="12.5" r="1.6" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M9 18c0-1.4 1.1-2.4 2.5-2.4S14 16.6 14 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="hero-photo-ring">
+          <img src="assets/profile.png" alt="Navnee Sharma" width="1254" height="1254" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STACK / PROFESSIONAL SUMMARY SECTION ===== -->
+    <section id="stack" class="stack-section">
+      <h2 class="summary-heading">My <span class="accent-word">Tech Stack</span></h2>
+
+      <div class="summary-grid">
+        <div class="summary-card">
+          <h3 id="core-toolkit">Core Toolkit</h3>
+          <div class="summary-list-box">
+            <ul role="list" aria-labelledby="core-toolkit">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Pandas &amp; NumPy</li>
+              <li>Scikit-learn</li>
+              <li>TensorFlow / Keras</li>
+              <li>Excel (Advanced)</li>
+              <li>Git &amp; GitHub</li>
+              <li>MongoDB</li>
+              <li>Power BI</li>
+              <li>Tableau</li>
+              <li>GCP</li>
+              <li>Matplotlib &amp; Seaborn</li>
+              <li>Plotly</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="summary-card">
+          <h3 id="also-experienced">Also Experienced With</h3>
+          <div class="summary-list-box">
+            <ul role="list" aria-labelledby="also-experienced">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript</li>
+              <li>Jupyter</li>
+              <li>ETL Pipeline Design</li>
+              <li>REST APIs</li>
+              <li>Data Profiling &amp; Validation</li>
+              <li>Source-to-Target Mapping</li>
+              <li>Metabase</li>
+              <li>OpenCV</li>
+              <li>Streamlit</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="summary-card">
+          <h3 id="currently-exploring">Currently Exploring</h3>
+          <div class="summary-list-box">
+            <ul role="list" aria-labelledby="currently-exploring">
+              <li>LLM APIs (OpenAI, Claude)</li>
+              <li>Prompt Engineering</li>
+              <li>RAG pipelines</li>
+              <li>Agentic AI workflows</li>
+              <li>XGBoost</li>
+              <li>Gradient boosting</li>
+              <li>ClickHouse</li>
+              <li>dbt</li>
+              <li>Airflow</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects">
+      <h2 class="projects-heading">Featured<br /><span class="accent-word">Projects</span></h2>
+
+      <div class="project-grid featured-grid">
+        <a class="project-card" href="https://github.com/navneeSharma/hindi_vowel_recognizer" target="_blank" rel="noopener">
+          <div class="project-thumb">&#129504;</div>
+          <div class="project-info">
+            <h4 class="project-card-title">Hindi Vowel Recognizer</h4>
+            <p class="project-card-desc">Custom CNN model trained to recognize handwritten Devanagari vowels.</p>
+          </div>
+        </a>
+        <a class="project-card" href="https://github.com/navneeSharma/product-position-data-analysis" target="_blank" rel="noopener">
+          <div class="project-thumb">&#128202;</div>
+          <div class="project-info">
+            <h4 class="project-card-title">Product Position Analysis</h4>
+            <p class="project-card-desc">Data analysis exploring product placement and positioning trends.</p>
+          </div>
+        </a>
+        <a class="project-card" href="https://github.com/navneeSharma/Stock-Price-Prediction" target="_blank" rel="noopener">
+          <div class="project-thumb">&#128200;</div>
+          <div class="project-info">
+            <h4 class="project-card-title">Stock Price Prediction</h4>
+            <p class="project-card-desc">ML model forecasting stock price movement from historical data.</p>
+          </div>
+        </a>
+      </div>
+
+      <h3 class="projects-subheading">Other <span class="accent-word">Projects</span></h3>
+
+      <div class="project-grid other-grid">
+        <a class="project-card" href="https://github.com/navneeSharma/sentiment-analysis" target="_blank" rel="noopener">
+          <div class="project-thumb">&#128172;</div>
+          <div class="project-info">
+            <h4 class="project-card-title">Sentiment Analysis</h4>
+            <p class="project-card-desc">NLP model classifying text sentiment as positive, negative, or neutral.</p>
+          </div>
+        </a>
+        <a class="project-card" href="https://www.foxwud.com" target="_blank" rel="noopener">
+          <div class="project-thumb">&#129691;</div>
+          <div class="project-info">
+            <h4 class="project-card-title">Foxwud</h4>
+            <p class="project-card-desc">Portfolio website built for a carpentry &amp; interior fit-out business.</p>
+          </div>
+        </a>
+        <a class="project-card" href="https://github.com/navneeSharma/python-foundations" target="_blank" rel="noopener">
+          <div class="project-thumb">&#128013;</div>
+          <div class="project-info">
+            <h4 class="project-card-title">Python Foundations</h4>
+            <p class="project-card-desc">Core Python exercises covering data structures, functions, and OOP fundamentals.</p>
+          </div>
+        </a>
+        <a class="project-card" href="https://github.com/navneeSharma/masterthesis-Kmeansclustering" target="_blank" rel="noopener">
+          <div class="project-thumb">&#127891;</div>
+          <div class="project-info">
+            <h4 class="project-card-title">Master&rsquo;s Thesis: K-Means Clustering</h4>
+            <p class="project-card-desc">My Master&rsquo;s thesis on K-Means clustering : currently being revisited to fix flaws and improve the approach.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+      <h2 class="contact-heading">Contact <span class="accent-word">Me</span></h2>
+
+      <div class="contact-card">
+        <div class="contact-intro">
+          <p class="contact-eyebrow">Let’s connect</p>
+          <h3 class="contact-subheading">Have an opportunity in mind?</h3>
+          <p class="contact-text">
+            I’m interested in AI engineering, data science, and analytics roles.
+            If you’re hiring or would like to collaborate on a project, I’d love to hear from you.
+          </p>
+          <a class="btn-primary" href="mailto:navnee.sharma30@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+          <div class="contact-socials">
+            <a class="contact-social-link" href="https://linkedin.com/in/navneesharma" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="contact-social-link" href="https://github.com/navneeSharma" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <dl class="contact-info">
+          <div class="contact-row">
+            <dt class="c-label">EMAIL</dt>
+            <dd><a class="c-value" href="mailto:navnee.sharma30@gmail.com">navnee.sharma30@gmail.com</a></dd>
+          </div>
+          <div class="contact-row">
+            <dt class="c-label">BASED IN</dt>
+            <dd class="c-value">United Arab Emirates</dd>
+          </div>
+          <div class="contact-row">
+            <dt class="c-label">LANGUAGES</dt>
+            <dd class="c-value">English, Hindi, German (A2)</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
